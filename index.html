@@ -72,17 +72,94 @@
                                             </div>
                                           </div>
                                           <div class="form-group">
-                                            <label class="form-check-label d-block" for="bussinessType1">Ownership Type</label>
-                                            <div class="custom-control custom-radio custom-control-inline">
+                                            <label class="form-check-label d-block" for="bussinessType1">Are you the sole property owner, or is there someone else who is co-owner with you?</label>
+                                            <input type="text" class="form-control" placeholder="">
+                                            <!-- <div class="custom-control custom-radio custom-control-inline">
                                               <input type="radio" id="bussinessType1" name="bussinessType" class="custom-control-input">
                                               <label class="custom-control-label" for="bussinessType1">Sole Proprietor</label>
                                             </div>
                                             <div class="custom-control custom-radio custom-control-inline">
                                               <input type="radio" id="bussinessType2" name="bussinessType" class="custom-control-input">
                                               <label class="custom-control-label" for="bussinessType2">Partner</label>
-                                            </div>
+                                            </div> -->
+                                          </div>
+                                          <div class="form-group">
+                                            <label class="form-check-label d-block" for="bussinessType1">How long have you owned the propery?</label>
+                                            <input type="number" class="form-control" placeholder="years">
                                           </div>
                                           <div class="form-row">
+                                              <div class="col-md-6">
+                                                  <div class="form-group">
+                                                    <label class="form-check-label d-block" for="bussinessType1">Can you describe the number of units?</label>
+                                                    <input type="number" class="form-control" placeholder="">
+                                                  </div>
+                                              </div>
+                                              <div class="col-md-6">
+                                                  <div class="form-group">
+                                                    <label class="form-check-label d-block" for="bussinessType1">Can you describe the current occupancy?</label>
+                                                    <input type="number" class="form-control" placeholder="">
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="form-group">
+                                            <label class="form-check-label d-block" for="bussinessType1">Can you give me an idea of how much you are collecting in monthly rents?</label>
+                                            <input type="number" class="form-control" placeholder="">
+                                          </div>
+
+                                          <div class="form-group">
+                                            <label class="form-check-label d-block" for="bussinessType1">What condition is the property in?</label>
+                                            <input type="text" class="form-control" placeholder="">
+                                          </div>
+
+                                          <div class="form-group">
+                                            <label class="form-check-label d-block" for="bussinessType1">Does the property have any loans on it, if so how much is currently owed on the property?</label>
+                                            <input type="text" class="form-control" placeholder="">
+                                          </div>
+
+                                          <div class="form-group">
+                                            <label class="form-check-label d-block" for="bussinessType1">Are you current on the mortgage? What are your monthly payments?</label>
+                                            <input type="text" class="form-control" placeholder="">
+                                          </div>
+
+                                          <div class="form-group">
+                                            <label class="form-check-label d-block" for="bussinessType1">How much are the property taxes?</label>
+                                            <input type="text" class="form-control" placeholder="">
+                                          </div>
+
+                                          <div class="form-group">
+                                            <label class="form-check-label d-block" for="bussinessType1">Are you cashflow positive, or are you running in the negative each month?</label>
+                                            <input type="text" class="form-control" placeholder="">
+                                          </div>
+
+                                          <div class="form-group">
+                                            <label class="form-check-label d-block" for="bussinessType1">What prompted you to consider selling?</label>
+                                            <input type="text" class="form-control" placeholder="">
+                                          </div>
+
+                                          <div class="form-group">
+                                            <label class="form-check-label d-block" for="bussinessType1">What is the absolute least that you may be willing to sell for?</label>
+                                            <input type="number" class="form-control" placeholder="">
+                                          </div>
+
+                                          <div class="form-group">
+                                            <label class="form-check-label d-block" for="bussinessType1">Do you have any income/expense documents available?</label>
+                                            <select id="inputDocumentAvailable" class="form-control">
+                                                <option class="">Select</option>
+                                                <option value="yes">Yes</option>
+                                                <option value="no">No</option>
+                                            </select>
+                                          </div>
+
+                                          <div class="form-group">
+                                            <label class="form-check-label d-block" for="bussinessType1">Has your property been impacted by the Covid-19 crisis?</label>
+                                            <select id="inputCovidImpact" class="form-control">
+                                                <option class="">Select</option>
+                                                <option value="yes">Yes</option>
+                                                <option value="no">No</option>
+                                            </select>
+                                          </div>
+
+                                          <!-- <div class="form-row">
                                               <div class="form-group col-md-6">
                                                 <label for="inputDuration">How long have you owned the property?</label>
                                                 <input type="number" class="form-control" id="inputDuration" placeholder="5 years">
@@ -169,14 +246,6 @@
                                           </div>
                                           
                                           <div class="form-row">
-                                              <!-- <div class="form-group col-md-6">
-                                                  <label for="inputCashflow">How is your cashflow?</label>
-                                                  <select id="inputCashflow" class="form-control">
-                                                    <option class="">Select</option>
-                                                    <option value="positive">Positive</option>
-                                                    <option value="negative">Negative</option>
-                                                  </select>
-                                              </div> -->
                                               <div class="form-group col-md-6">
                                                   <label for="inputDocumentAvailable">Do you have any income/expense documents available?</label>
                                                   <select id="inputDocumentAvailable" class="form-control">
@@ -245,7 +314,7 @@
                                                   <label for="inputACF">Annual Cash Flow</label>
                                                     <input type="number" class="form-control" id="inputACF" placeholder="$" disabled="">
                                               </div>
-                                          </div>
+                                          </div> -->
 
                                           <button id="submit1" type="submit" class="btn btn-primary">Submit</button>
                                     </form>
@@ -301,6 +370,34 @@
                                           </div>
 
                                           <div class="form-group">
+                                            <label class="form-check-label d-block" for="bussinessType1">Will you make your purchase with bank financing or all cash?</label>
+                                            <input type="text" class="form-control" placeholder="">
+                                          </div>
+
+                                          <div class="form-group">
+                                            <label class="form-check-label d-block" for="bussinessType1">Are you ready to make a purchase now ? If so how much are you looking to invest?</label>
+                                            <input type="text" class="form-control" placeholder="">
+                                          </div>
+
+                                          <div class="form-group">
+                                            <label class="form-check-label d-block" for="bussinessType1">Are willing to pay a wholesale fee to Fidelity Mortgage Group for bringing you deals that fit your criteria?</label>
+                                            <select id="inputCovidImpact" class="form-control">
+                                                <option class="">Select</option>
+                                                <option value="yes">Yes</option>
+                                                <option value="no">No</option>
+                                            </select>
+                                          </div>
+
+                                          <div class="form-group">
+                                            <label class="form-check-label d-block" for="bussinessType1">Are interested in purchasing mortgage notes?</label>
+                                            <select id="inputCovidImpact" class="form-control">
+                                                <option class="">Select</option>
+                                                <option value="yes">Yes</option>
+                                                <option value="no">No</option>
+                                            </select>
+                                          </div>
+
+                                          <!-- <div class="form-group">
                                             <label class="form-check-label d-block" for="paymentMethod1">What payment method would you use?</label>
                                             <div class="custom-control custom-radio custom-control-inline">
                                               <input type="radio" id="paymentMethod1" name="paymentMethod" class="custom-control-input">
@@ -311,20 +408,6 @@
                                               <label class="custom-control-label" for="paymentMethod2">Bank Financing</label>
                                             </div>
                                           </div>
-                                          <!-- <div class="form-row">
-                                            <div class="form-group col-md-6">
-                                                <label for="inputTotalUnits">Total Units</label>
-                                                <input type="number" class="form-control" id="inputTotalUnits" placeholder="5">
-                                            </div>
-                                            <div class="form-group col-md-6">
-                                                <label for="inputOccupiedUnits">Occupied Units</label>
-                                                <input type="number" class="form-control" id="inputOccupiedUnits" placeholder="2">
-                                            </div>
-                                          </div>
-                                          <div class="form-group">
-                                                <label for="inputMonthyRent">Average Monthy Rent</label>
-                                                <input type="number" class="form-control" id="inputMonthyRent" placeholder="$">
-                                          </div> -->
                                           <div class="form-row">
                                               <div class="form-group col-md-6">
                                                     <label class="d-block">Are you ready to make a purchase now?</label>
@@ -407,7 +490,7 @@
                                                 <input type="number" class="form-control" id="inputPCF" placeholder="$" disabled="">
                                             </div>
                                               
-                                          </div>
+                                          </div> -->
 
                                           <button type="submit" class="btn btn-primary">Submit</button>
 
